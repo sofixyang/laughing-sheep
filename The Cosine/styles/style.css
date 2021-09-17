@@ -1,0 +1,9 @@
+/* CSS Document */
+
+*, *::after, *::before {
+  box-sizing:border-box;  
+  background-color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
