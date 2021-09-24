@@ -225,10 +225,17 @@ h1 {
     display: block;
 }
 
-.logos{
+.logos {
     display: flex;
     flex-direction: row;
-    overflow-x: auto;
-    padding: 2em 1em 2em 2em;
+    padding: 2em;
     gap: 2em;
+}
+
+.logos img{
+    width: 5em;
+}
+
+.logos img:last-of-type {
+    display: none;
 }
