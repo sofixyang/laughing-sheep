@@ -1,11 +1,12 @@
 /****************/
-/* CSS DOCUMENT */
+/* INDEX.HTML */
 /****************/
         
 *, *::after, *::before {
     margin: 0em;
     padding: 0em;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 :root {
@@ -14,8 +15,7 @@
     --button-gradient: -webkit-linear-gradient(left bottom, #f0a0ff, #f99eea, #fb9ed7, #f9a1c7, #f3a4ba, #efa5bb, #eaa7bc, #e6a8bc, #e3a8c7, #dca9d3, #d1abde, #c3aee9);
   }
         
-body {
-    font-family: 'Josefin Sans', sans-serif;
+.index {
     background-color: var(--main-color);
     background-image: var(--background-gradient);
     background-size: 100vh 100vh;
@@ -51,6 +51,9 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 1em 2em 1em 0em;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
         
 .hamburgerMenu span {
@@ -64,7 +67,7 @@ nav {
     transition: all 0.3s ease-in-out;
 }
 
-.navContent {
+.menuItems {
     position: fixed;
     top: 0;
     width: 100%;
@@ -77,16 +80,15 @@ nav {
     text-align: center;
 }
 
-.navContent button {
+.menuItems button {
     font-size: 0.6rem;
-    padding: 22px 38px 20px;
     border: none;
     background-image: var(--button-gradient);
     padding: 2em 4em 2em 4em;
     border-radius: 3em;
 }
 
-.navContent button a {
+.menuItems button a {
     text-decoration: none;
     color: white;
     font-weight: 600;
@@ -94,12 +96,12 @@ nav {
     letter-spacing: 0.1em;
 }
         
-.navContent ul li {
+.menuItems ul li {
     list-style: none;
     margin-bottom: 5rem;
 }
         
-.navContent ul li a {
+.menuItems ul li a {
     text-decoration: none;
     color: white;
     font-size: 1.875rem;
@@ -109,12 +111,13 @@ nav {
 nav a {
     width: 7em;
     margin-left: 0.5rem;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .hamburgerMenu {
     display: block;
     cursor: pointer;
+    z-index: 1000;
 }
 
 .hamburgerMenu.active .bar:nth-child(2) {
@@ -137,30 +140,37 @@ nav a {
         height: auto;
     }
     
-    .navContent {
+    .menuItems {
         opacity: 1;
         background: none;
         position: relative;
-        height: auto;
         padding-top: 0;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: 50%;
     }
 
-    .navContent ul {
+    .menuItems ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: initial;
-        width: 50%;
+        width: 70%;
     }
 
-    .navContent ul li a {
+    .menuItems ul li {
+        margin-bottom: 0;
+    }
+
+    .menuItems ul li a {
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.1em;
         font-size: 0.6em;
     }
 
-    .navContent button {
+    .menuItems button {
         display: block;
         font-size: 0.6em;
         padding: 2em 4em 2em 4em;
@@ -169,9 +179,11 @@ nav a {
         border-style: solid;
         border-width: 1px;
         background: none;
+        min-width: 12rem;
+        margin-left: 3rem;
     }
             
-    .navContent button a {
+    .menuItems button a {
         text-decoration: none;
         color: white;
         font-weight: 600;
@@ -186,7 +198,7 @@ nav a {
 
 
 /*************/
-/* SECTION 1 */
+/* SLIDE IMAGES */
 /*************/
 
 h1 {
@@ -202,7 +214,7 @@ h1 {
     overflow-x: auto;
     padding: 2em 1em 2em 2em;
     text-align: center;
-    position: relative;
+    position: relative;jxzz
 }
 
 .slideImages figure {
@@ -312,4 +324,66 @@ h1 {
 
 .logos img:last-of-type {
     display: none;
+}
+
+/*********************/
+/* HOWITWORKS.HTML */
+/*********************/
+
+.howItWorks {
+    background-color: black;
+}
+
+.howItWorks header {
+    background-color: black;
+}
+
+.howItWorks nav{
+    position: initial;
+}
+
+.tabInfo {
+    background-color: #cdb482;
+    margin-top: 7em;
+    padding-bottom: 3em;
+}
+
+.tabInfo span {
+    position: absolute;
+    padding: 2rem;
+    border-radius: 50rem;
+    border-style: solid;
+    border-width: 1px;
+    margin: 2rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabInfo h2{
+    padding: 4em 0em 1em 0.7em;
+    color: black;
+    font-weight: 200;
+    font-size: 2.1em;
+}
+
+.tabInfo p {
+    padding: 0em 3em 2em 1.3em;
+    color: black;
+    font-weight: 200;
+    letter-spacing: 0.02em;
+    font-size: 1.2em;
+}
+
+.tabInfo img {
+    border-radius: 1.5em;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 1em;
 }

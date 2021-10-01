@@ -1,7 +1,7 @@
 // JavaScript Document
 
 const hamburger = document.querySelector(".hamburgerMenu");
-const overlay = document.querySelector(".navContent");
+const overlay = document.querySelector(".menuItems");
 const fadespeed = 2; // snelheid van fade animatie
 
 hamburger.addEventListener("click", mobileMenu);
