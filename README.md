@@ -40,11 +40,11 @@ https://thecosine.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina
-<img src="images/screenshots/cosinedesktop.png" width="375px" alt="The Cosine Homepage Desktop versie">
+<img src="images/screenshots/cosinehomepage.png" width="375px" alt="The Cosine Homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Homepagina
-<img src="images/screenshots/cosinemobile.png" width="375px" alt="The Cosine Homepage Mobile versie">
+<img src="images/screenshots/cosinepage2.png" width="375px" alt="The Cosine 2e pagina">
  
 </details>
 
