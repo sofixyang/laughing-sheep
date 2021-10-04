@@ -177,11 +177,11 @@ Het gaat nog steeds best soepel. Ik ben tegen een probleem aan gekomen met de ac
 Ik heb eindelijk de hamburger menu laten werken. Ik heb het gevoel dat de menubar mijn het meeste tijd heeft gekost van de hele site.. ;-; Dit is het grootste probleem waar ik tegen aan liep. Verder ging het wel redelijk. Er zijn wel kleine dingen, waar ik geen oplossing voor heb gevonden. Ook probeerde ik een infinite scroll te maken, dit is helaas niet meer gelukt.
 
 ### Screenshot(s)
-<img src="images/screenshots/cosinevfinal1.png" width="375px" alt="Versie 3 van mobile homepage">
-<img src="images/screenshots/cosinevfinal2.png" width="375px" alt="Versie 3 van mobile menu">
-<img src="images/screenshots/cosinevfinal3.png" width="375px" alt="Versie 3 van mobile homepage">
-<img src="images/screenshots/cosinevfinal4.png" width="375px" alt="Versie 3 van mobile homepage">
-<img src="images/screenshots/cosinevfinal5.png" width="375px" alt="Versie 3 van mobile 2e pagina">
+<img src="images/screenshots/cosinefinal1.png" width="375px" alt="Versie 3 van mobile homepage">
+<img src="images/screenshots/cosinefinal2.png" width="375px" alt="Versie 3 van mobile menu">
+<img src="images/screenshots/cosinefinal3.png" width="375px" alt="Versie 3 van mobile homepage">
+<img src="images/screenshots/cosinefinal4.png" width="375px" alt="Versie 3 van mobile homepage">
+<img src="images/screenshots/cosinefinal5.png" width="375px" alt="Versie 3 van mobile 2e pagina">
 
 
 </details>
