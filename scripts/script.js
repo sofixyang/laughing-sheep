@@ -4,8 +4,6 @@ const hamburger = document.querySelector(".hamburgerMenu");
 const overlay = document.querySelector(".menuItems");
 const fadespeed = 2; // snelheid van fade animatie
 
-hamburger.addEventListener("click", mobileMenu);
-
 function mobileMenu() {
     if (overlay.style.opacity>=1) {
         fade(overlay)
@@ -46,4 +44,4 @@ function unfade(element) {
     }, 10);
 }
 
-
+hamburger.addEventListener("click", mobileMenu);

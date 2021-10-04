@@ -24,7 +24,7 @@
     --section-color-3: #C2ADF9;
     --section-color-4: #99BEFA;
     --section-color-5: #DDACB0;
-    --section-padding: 1rem;
+    --small-spacing: 0.1rem;
   }
         
 .index {
@@ -55,7 +55,7 @@
     }
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 1146px) {
     .index {
         background-size: 200vh 200vh;
     }
@@ -112,7 +112,7 @@ nav {
     color: var(--theme-color-white);
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: var(--small-spacing);
 }
         
 .menuItems ul li {
@@ -152,7 +152,7 @@ nav a {
     transform: translateY(-8px) rotate(-45deg);
 }
       
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 1146px) {
     nav {
         padding: 1.5rem 2.5rem 2.2rem 2.5rem;
         display: flex;
@@ -186,7 +186,7 @@ nav a {
     .menuItems ul li a {
         font-weight: 600;
         text-transform: uppercase;
-        letter-spacing: 0.1rem;
+        letter-spacing: var(--small-spacing);
         font-size: 0.6rem;
     }
 
@@ -219,7 +219,7 @@ nav a {
         color: var(--theme-color-white);
         font-weight: 600;
         text-transform: uppercase;
-        letter-spacing: 0.1rem;
+        letter-spacing: var(--small-spacing);
     }
 
     .menuItems button:hover {
@@ -231,6 +231,16 @@ nav a {
 
     .hamburgerMenu {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .menuItems {
+        padding-top: 9rem;
+    }
+
+    .menuItems button {
+        margin-top: 3rem;
     }
 }
 
@@ -277,7 +287,7 @@ h1 {
     justify-content: space-between;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: var(--small-spacing);
     font-size: 0.65rem;
 }
 
@@ -285,9 +295,29 @@ h1 {
     display: none;
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 1146px) {
     h1 {
         width: 45%;
+        font-size: 4rem;
+        margin-left: 2rem;
+    }
+    
+    .slideImages {
+        margin-top: 10rem;
+        padding-left: 40%;
+    }
+
+    .slideImages img {
+        border-radius: 0.6rem;
+        margin-bottom: 0.5rem;
+        height: 26rem;
+        width: 40rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1146px) {
+    h1 {
+        width: 70%;
         font-size: 4rem;
         margin-left: 2rem;
     }
@@ -327,12 +357,12 @@ h1 {
     padding: 0rem 3rem 3rem 0rem;
     color: var(--theme-color-white);
     font-weight: 200;
-    letter-spacing: 0.02rem;
+    letter-spacing: var(--small-spacing);
     font-size: 1.2rem;
     line-height: 1.2;
 }
 
-.blockContent button, .getStarted button {
+.blockContent button, footer button {
     display: block;
     font-size: 0.6rem;
     padding: 1.2rem 2.4rem 1.2rem 2.4rem;
@@ -343,15 +373,15 @@ h1 {
     background: none;
 }
 
-.blockContent button a, .getStarted button a {
+.blockContent button a, footer button a {
     text-decoration: none;
     color: var(--theme-color-white);
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: var(--small-spacing);
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 1146px) {
     .blockContent {
         padding-left: 3rem;
         height: 110vh;
@@ -376,6 +406,30 @@ h1 {
     }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1146px) {
+    .blockContent {
+        padding-left: 3rem;
+    }
+    
+    .blockContent h2 {
+        font-size: 3rem;
+        width: 85%;
+        line-height: 1.1;
+    }
+    
+    .blockContent p {
+        width: 85%;
+        padding-bottom: 5rem;
+    }
+
+    .blockContent button:hover{
+        background: var(--button-gradient);
+        border: none;
+        transition: 2s ease;
+        cursor: pointer;
+    }
+}
+
 
 /***************************/
 /* FEATURED BRANDS SECTION */
@@ -389,7 +443,7 @@ h1 {
 .featuredBrands h3 {
     color: var(--theme-color-white);
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: var(--small-spacing);
     font-size: 0.8rem;
     padding-top: 1rem;
 }
@@ -416,7 +470,7 @@ h1 {
     display: none;
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 768px) {
     .featuredBrands {
         padding: 3rem;
     }
@@ -432,11 +486,23 @@ h1 {
     }
 }
 
-/********************************/
-/* READY TO GET STARTED SECTION */
-/********************************/
+@media only screen and (max-width: 320px) {
+    .logos img {
+        width: 3.5rem;
+    }
+}
 
-.getStarted {
+@media only screen and (max-width: 280px) {
+    .logos img {
+        width: 2.8rem;
+    }
+}
+
+/*******************************/
+/* READY TO GET STARTED FOOTER */
+/*******************************/
+
+footer {
     height: 65vh;
     display: flex;
     justify-content: center;
@@ -450,22 +516,22 @@ h1 {
     animation-iteration-count: infinite;
 }
 
-.getStarted h4 {
+footer h4 {
     padding: 0rem 0rem 3rem 0.7rem;
     color: var(--theme-color-white);
     font-weight: 200;
     font-size: 1.9rem;
 }
-.getStarted button {
+footer button {
     margin: 0;
 }
 
-@media only screen and (min-width: 1050px) {
-    .getStarted {
+@media only screen and (min-width: 1146px) {
+    footer {
         background-size: 200vh 200vh;
     }
 
-    .getStarted button:hover {
+    footer button:hover {
         background: var(--button-gradient);
         border: none;
         transition: 2s ease;
@@ -522,7 +588,7 @@ h1 {
 .howItWorks main section p {
     padding: 0rem 1rem 3rem 0.2rem;
     font-weight: 200;
-    letter-spacing: 0.02em;
+    letter-spacing: var(--small-spacing);
     font-size: 1.2rem;
 }
 
@@ -591,7 +657,7 @@ h1 {
     display: none;
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 1146px) {
     .howItWorks main button {
         padding-left: 11rem;
     }

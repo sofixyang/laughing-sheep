@@ -22,7 +22,7 @@ Sofia Yang
 Blauw of rood.
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Responsive
  
 </details>
 
@@ -58,13 +58,10 @@ Homepagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/screenshots/TheCosineBreakdownSketch.png" width="375px" alt="breakdown van de hele homepagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/screenshots/TheCosineBreakdownSketch2.png" width="375px" alt="breakdown van menu">
 
 </details>
 
@@ -78,26 +75,11 @@ Homepagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Ik ben nog niet zo ver en heb alleen nog maar de HTML structuur opgebouwd.
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Feedback: Mijn HTML ziet er goed en netjes uit, ga zo door.
 
 </details>
 
@@ -111,26 +93,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik werk wat langzamer, waardoor ik nog niet heel veel heb. Maar het coderen zelf ging vrij soepel! Ik ben nog niet tegen grote problemen aangekomen en los mijn problemen tot nu toe vrij snel op. Als ik het op github upload, krijg ik een error waarbij mijn beelden niet te zien zijn. Ik ben er ook nog niet achter hoe ik de HR links iets korter maak.
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+<img src="images/screenshots/cosinev1error.png" width="375px" alt="Versie 1 van mobile homepage met error">
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Feedback: Site ziet er goed uit, gewoon zo doorgaan.
+- Ik moet nog kijken naar de github error, weet niet precies waar die aan ligt.
 
 </details>
 
@@ -142,6 +111,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 <details>
 <summary>uitwerken na test in 8e voortgang</summary>
+
+Ik was er deze les niet..
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
@@ -181,26 +152,15 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het gaat nog steeds best soepel. Ik ben tegen een probleem aan gekomen met de achtergrond van de pagina, het lukte niet om de svg full screen te krijgen. Maar na wat hulp kwam ik achter een nieuwe oplossing voor de achtergrond, die ik gelijk ook kon animeren! Ik kwam ook tegen het problemen aan bij de hamburger menu.
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+<img src="images/screenshots/cosinev2.png" width="375px" alt="Versie 2 van mobile homepage">
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Feedback: Proberen om iets minder classes te gebruiken.
+- Feedback: Plaats een # in de a links.
+- Feedback: Kijk naar wat je kan doen in de tijd, die je nog over hebt. Doe eerst de belangrijke punten.
 
 </details>
 
@@ -214,11 +174,15 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb eindelijk de hamburger menu laten werken. Ik heb het gevoel dat de menubar mijn het meeste tijd heeft gekost van de hele site.. ;-; Dit is het grootste probleem waar ik tegen aan liep. Verder ging het wel redelijk. Er zijn wel kleine dingen, waar ik geen oplossing voor heb gevonden. Ook probeerde ik een infinite scroll te maken, dit is helaas niet meer gelukt.
 
 ### Screenshot(s)
+<img src="images/screenshots/cosinevfinal1.png" width="375px" alt="Versie 3 van mobile homepage">
+<img src="images/screenshots/cosinevfinal2.png" width="375px" alt="Versie 3 van mobile menu">
+<img src="images/screenshots/cosinevfinal3.png" width="375px" alt="Versie 3 van mobile homepage">
+<img src="images/screenshots/cosinevfinal4.png" width="375px" alt="Versie 3 van mobile homepage">
+<img src="images/screenshots/cosinevfinal5.png" width="375px" alt="Versie 3 van mobile 2e pagina">
 
-hier screenshot(s) van je eindresultaat
 
 </details>
 
@@ -235,6 +199,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 2. https://cssgradient.io/
-3. 
-
+3. https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+4. https://stackoverflow.com/questions/6121203/how-to-do-fade-in-and-fade-out-with-javascript-and-css
+    
 </details>
