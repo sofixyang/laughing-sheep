@@ -584,20 +584,20 @@ footer h4 {
     margin-top: 0.5rem;
 }
 
-.stepsContent div h2{
+article div h2{
     padding: 9rem 0rem 2rem 0rem;
     font-weight: 200;
     font-size: 2.1rem;
 }
 
-.stepsContent div p {
+article div p {
     padding: 0rem 1rem 3rem 0.2rem;
     font-weight: 200;
     letter-spacing: var(--small-spacing);
     font-size: 1.2rem;
 }
 
-.stepsContent img {
+article img {
     border-radius: 0.6rem;
     max-width: 100%;
     height: auto;
@@ -674,25 +674,25 @@ footer h4 {
         padding: 6rem 3.5rem 8rem 3.5rem;
     }
 
-    .stepsContent {
+    article {
         display: flex;
         justify-content: space-between;
         flex-direction: row-reverse;
     }
 
-    .stepsContent div {
+    article div {
         margin-left: 10rem;
     }
 
-    .stepsContent div h2 {
+    article div h2 {
         padding: 0rem 0rem 2rem 0rem;
     }
 
-    .stepsContent img {
+    article img {
         width: 40%;
     }
 
-    .stepsContent div p {
+    article div p {
         font-size: 1.9rem;
         letter-spacing: 0;
     }
