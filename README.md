@@ -112,33 +112,25 @@ Ik werk wat langzamer, waardoor ik nog niet heel veel heb. Maar het coderen zelf
 <details>
 <summary>uitwerken na test in 8e voortgang</summary>
 
-Ik was er deze les niet..
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Foto alt's kloppen nog niet
+Ik merkte dat niet bij alle foto's de alt's kloppen, ook is het beter om een iets uitgebreidere beschrijving toetevoegen.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Niet genoeg contrast 
+Op sommige delen van de site, is er weinig contrast voor slecht ziende. Daardoor is het beter om los van het orginele design te gaan en de kleuren aan te passen.
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Tab niet op logische volgorde
+Op pagina 2 tabt hij niet op een logische volgorde, hij gaat eerst naar de footer van de pagina en dan weer naar boven.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
+#### Geen styling op alles states 
+Er is geen styling toegepast op alle states.
 
 </details>
 

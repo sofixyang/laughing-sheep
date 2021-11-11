@@ -20,57 +20,112 @@
             <a href="index.html"><img src="images/cosine_white.svg" alt="Cosine Logo"></a>
             <div class="menuItems">
                 <ul>
-                    <li><a href="#">How it Works</a></li>
+                    <li><a href="howitworks.html">How it Works</a></li>
                     <li><a href="#">Our Projects</a></li>
                     <li><a href="#">About Us</a></li>
                 </ul>
-                <button><a href="#">Start a Project</a></button>
+                <button>Start a Project</button>
             </div>
-            <div class="hamburgerMenu">
+            <button class="hamburgerMenu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </button>
         </nav>
     </header>
     <main>
-        <section class="projectDiscovery">
-            <span>1</span>
-            <h2>Project Discovery</h2>
-            <p>Schedule a meeting with our talented design team to share your project. Together we will review the
-                specific needs and priorities.</p>
-            <img src="images/infoimages/01-project-discovery.jpeg" alt="Blue Radio with Date">
+        <section class="titleSection">
+            <hr>
+            <h3>How it Works</h3>
+            <h1>A thorough process from day one to installation.</h1>
         </section>
-        <section class="designDevelopment">
-            <span>2</span>
-            <h2>Design Development</h2>
-            <p>Following the discovery meeting, our designers will present a concept design package and budget estimate.
-                The team will make adjustments according to your feedback.</p>
-            <img src="images/infoimages/02-design-development.jpeg" alt="Blue Radio with Date">
+        <section class="steps1-5">
+            <section>
+                <span>1</span>
+                <div class="stepsContent">
+                    <div>
+                        <h2>Project Discovery</h2>
+                        <p>Schedule a meeting with our talented design team to share your project. Together we will
+                            review
+                            the
+                            specific needs and priorities.</p>
+                    </div>
+                    <img src="images/infoimages/01-project-discovery.jpeg" alt="Blue Radio with Date">
+                </div>
+            </section>
+            <section>
+                <span>2</span>
+                <div class="stepsContent">
+                    <div>
+                        <h2>Design Development</h2>
+                        <p>Following the discovery meeting, our designers will present a concept design package and
+                            budget
+                            estimate.
+                            The team will make adjustments according to your feedback.</p>
+                    </div>
+                    <img src="images/infoimages/02-design-development.jpeg" alt="Blue Radio with Date">
+                </div>
+            </section>
+            <section>
+                <span>3</span>
+                <div class="stepsContent">
+                    <div>
+                        <h2>Tailored Documentation</h2>
+                        <p>Upon approval we will deliver tailored drawings and specification documentation for
+                            successful
+                            execution.
+                            The team will remain available for any ongoing site coordination.</p>
+                    </div>
+                    <img src="images/infoimages/03-tailored-documentation.jpeg" alt="Blue Radio with Date">
+                </div>
+            </section>
+            <section>
+                <span>4</span>
+                <div class="stepsContent">
+                    <div>
+                        <h2>Fixture Procurement</h2>
+                        <p>Our experienced procurement team will facilitate the luminaire order. We work with you to
+                            ensure
+                            that
+                            your light fixture package arrives at site complete and on time.</p>
+                    </div>
+                    <img src="images/infoimages/04-fixture-procurement.jpeg" alt="Blue Radio with Date">
+                </div>
+            </section>
+            <section>
+                <span>5</span>
+                <div class="stepsContent">
+                    <div>
+                        <h2>On-site Support</h2>
+                        <p>As the project gets installed, we standby to support the contractors as required. Our team is
+                            here
+                            with
+                            you until the finish line.</p>
+                    </div>
+                    <img src="images/infoimages/05-onsite-support.jpeg" alt="Blue Radio with Date">
+                </div>
+            </section>
         </section>
-        <section class="tailoredDocumentation">
-            <span>3</span>
-            <h2>Tailored Documentation</h2>
-            <p>Upon approval we will deliver tailored drawings and specification documentation for successful execution.
-                The team will remain available for any ongoing site coordination.</p>
-            <img src="images/infoimages/03-tailored-documentation.jpeg" alt="Blue Radio with Date">
-        </section>
-        <section class="fixtureProcurement">
-            <span>4</span>
-            <h2>Fixture Procurement</h2>
-            <p>Our experienced procurement team will facilitate the luminaire order. We work with you to ensure that
-                your light fixture package arrives at site complete and on time.</p>
-            <img src="images/infoimages/04-fixture-procurement.jpeg" alt="Blue Radio with Date">
-        </section>
-        <section class="On-siteSupport">
-            <span>5</span>
-            <h2>On-site Support</h2>
-            <p>As the project gets installed, we standby to support the contractors as required. Our team is here with
-                you until the finish line.</p>
-            <img src="images/infoimages/05-onsite-support.jpeg" alt="Blue Radio with Date">
-        </section>
-        <button><a href="#"><span>></span>Start a Project</a></button>
+        <button class="projectButton"><span>></span>Start a Project</button>
     </main>
+    <footer>
+        <div>
+            <h4>Start a Project</h4>
+            <p>Let’s discuss how we can help provide the perfect lighting solution for your project.</p>
+        </div>
+        <form>
+            <fieldset>
+                <input type="text" placeholder="Full Name *">
+                <input type="email" placeholder="Email *">
+                <input type="tel" placeholder="Phone *">
+            </fieldset>
+            <textarea placeholder="Brief description of your project...." tabindex="5" required></textarea>
+            <p>Upload file (10mb max)</p>
+            <button type="file" id="fileButton">Select File</button>
+            <input type="url" placeholder="Project Link (For large files)">
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+    </footer>
 
     <script src="/scripts/script.js"></script>
 </body>
